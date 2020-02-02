@@ -16,8 +16,10 @@ public class Calculations {
 		System.out.println("The division is = " + divide);
 		
 		//member_D add the feature of multiplying x by y and print the result
-				int multiply  = x*y;
-		System.out.println("The product is = " + multiply);
+				
+		multiply(x,y);
+
+		System.out.println("The product is = " + multiply(x,y));
 		
 		
 		//Exercise 5: Spot the issues to be reported
@@ -32,12 +34,17 @@ public class Calculations {
 		return sum; 
 	}
 	
+	
 	// Member B _ Tasneem 
 	public static int subtraction(int w, int z) {
 		int sum = w - z;
 		return sum; 
 	}
 	
+		public static int multiply(int w, int z) {
+		int sum = w * z;
+		return sum; 
+	}
 	public static String welcome() {
 		return "Hello World"; 
 	}
