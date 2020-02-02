@@ -12,8 +12,7 @@ public class Calculations {
 		//member_B add the feature of subtracting x from y and print the result
 		
 		//member_C add the feature of dividing x by y and print the result
-		int divide = x/y;
-		System.out.println("The division is = " + divide);
+		System.out.println("The division is = " + divide(x,y));
 		
 		//member_D add the feature of multiplying x by y and print the result
 				
@@ -41,10 +40,22 @@ public class Calculations {
 		return sum; 
 	}
 	
+<<<<<<< HEAD
 		public static int multiply(int w, int z) {
 		int sum = w * z;
 		return sum; 
 	}
+=======
+	
+			public static int divide(int w, int z) {
+		int d = w/z;
+		return d; 
+	}
+	
+	
+	
+	
+>>>>>>> 4995c9ba65ef7326375b68f79c008982e43d3b32
 	public static String welcome() {
 		return "Hello World"; 
 	}
