@@ -23,6 +23,12 @@ public class Calculations {
 	}
 	
 	public static int addition(int w, int z) {
+		int sum = w + z;
+		return sum; 
+	}
+	
+	// Member B _ Tasneem 
+	public static int subtraction(int w, int z) {
 		int sum = w - z;
 		return sum; 
 	}
