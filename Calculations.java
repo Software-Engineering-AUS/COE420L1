@@ -16,7 +16,8 @@ public class Calculations {
 		System.out.println("The division is = " + divide);
 		
 		//member_D add the feature of multiplying x by y and print the result
-		
+				int multiply  = x*y;
+		System.out.println("The product is = " + multiply);
 		
 		
 		//Exercise 5: Spot the issues to be reported
