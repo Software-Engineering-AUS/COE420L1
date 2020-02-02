@@ -21,6 +21,7 @@ public class Calculations {
 		
 		//Exercise 5: Spot the issues to be reported
 		addition(4,5); // should print the sum of the values provided
+		subtraction(6,4);
 		welcome(); // should print the welcome message to the console
 	}
 	
